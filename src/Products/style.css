@@ -1,0 +1,10 @@
+.product{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 10%;
+}
+.product img{
+    width: 60%;
+    height: 30vh;
+}
