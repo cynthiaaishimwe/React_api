@@ -33,7 +33,7 @@ const [password, setPassword] = useState('')
  }
     return(
         <div>
-           
+           <Navbar></Navbar>
             <form className="form">
                 <h1>Login</h1>
                 <input placeholder="Enter Username" type="text"
@@ -48,8 +48,8 @@ const [password, setPassword] = useState('')
                 </br>
                 <br>
                 </br>
-                <Link to='/product'>
-                <button>Login</button>
+                <Link to={'./Products'}>
+                <button className="login-button">Login</button>
                 </Link>
             </form>
         </div>

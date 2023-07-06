@@ -1,6 +1,8 @@
 import React, {useEffect,useState}  from "react";
 import './style.css'
 import Navbar from "../Navbar";
+import { Link } from "react-router-dom";
+
 
 const Products = ()=>{
     const [products, setProducts] = useState([]);
