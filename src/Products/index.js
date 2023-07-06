@@ -1,5 +1,6 @@
 import React, {useEffect,useState}  from "react";
 import './style.css'
+import Navbar from "../Navbar";
 
 const Products = ()=>{
     const [products, setProducts] = useState([]);
@@ -27,6 +28,7 @@ const Products = ()=>{
     }
     return(
         <div>
+            <Navbar></Navbar>
                <h2>List of Products</h2>
             <div className="product">
          

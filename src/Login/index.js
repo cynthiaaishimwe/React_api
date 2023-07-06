@@ -1,6 +1,8 @@
 import React,{useState} from "react";
 import "./style.css"
 import {Link} from 'react-router-dom'
+import Navbar
+ from "../Navbar";
 
 
 const Login =() =>{
@@ -31,6 +33,7 @@ const [password, setPassword] = useState('')
  }
     return(
         <div>
+           
             <form className="form">
                 <h1>Login</h1>
                 <input placeholder="Enter Username" type="text"
