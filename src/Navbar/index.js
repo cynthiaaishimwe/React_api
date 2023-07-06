@@ -6,17 +6,17 @@ import { Link } from "react-router-dom";
 
 const Navbar = () =>{
     return(
-        <div className="navigation-border">
-            <div>
+        <div>
+            <div className="navbar">
                 <ul className="navigate">
-                 <li>
+                 <li><a>
                     <Link to={'/'}>
                     HOME
                     </Link>
-                 </li>
+                    </a></li>
                  <li>
                     <Link to={'./Products'}>
-                      Products
+                      PRODUCTS
                     </Link>
                  </li>
                  {/* <li>

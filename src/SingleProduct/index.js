@@ -1,8 +1,8 @@
-const { useParams } = require("react-router-dom")
+// const { useParams } = require("react-router-dom")
 
 
-const SingleProduct = () =>{
-    const {id} = useParams()
+// const SingleProduct = () =>{
+//     const {id} = useParams()
     
 
-}
+// }

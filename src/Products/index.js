@@ -29,7 +29,7 @@ const Products = ()=>{
         return <h2>Loading...</h2>
     }
     return(
-        <div>
+        <div className="product-heading">
             <Navbar></Navbar>
                <h2>List of Products</h2>
             <div className="product">
@@ -40,7 +40,7 @@ const Products = ()=>{
                     <h3>{item.title}</h3>
                     <h4>{item.price}</h4>
                     <h4>{item.discountPercentage}%</h4>
-                    <button>View more</button>
+                    <button>View details</button>
                 </div>
             ))}
             </div>
